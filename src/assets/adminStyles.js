@@ -1,4 +1,3 @@
-// src/assets/dummyStyles.js
 export const adminNavbarStyles = {
   nav: "bg-emerald-800 text-white shadow-lg",
   container: "max-w-6xl mx-auto px-4",
@@ -27,8 +26,6 @@ export const adminNavbarStyles = {
     }`,
 };
 
-
-// src/assets/dummyStyles.js
 export const addItemPageStyles = {
   pageContainer: "min-h-screen bg-slate-50 p-4 md:p-8",
   innerContainer: "max-w-4xl mx-auto",
@@ -48,9 +45,6 @@ export const addItemPageStyles = {
   submitButton: "w-full bg-emerald-600 hover:bg-emerald-700 text-white py-3 rounded-lg flex items-center justify-center",
 };
 
-
-
-// src/assets/dummyStyles.js
 export const listItemsPageStyles = {
   pageContainer: "min-h-screen bg-slate-50 p-4 md:p-8",
   innerContainer: "max-w-6xl mx-auto",
@@ -91,7 +85,6 @@ export const listItemsPageStyles = {
   editButton: "text-gray-500 hover:text-emerald-600",
   deleteButton: "text-gray-500 hover:text-red-600",
   
-  // StatsCard styles
   statsCard: (border) => `bg-white rounded-xl shadow p-6 border-l-4 ${border}`,
   statsCardInner: "flex items-center",
   statsCardIconContainer: (color) => `${color} p-3 rounded-full mr-4`,
@@ -101,7 +94,6 @@ export const listItemsPageStyles = {
 };
 
 
-// src/assets/dummyStyles.js
 export const ordersPageStyles = {
   pageContainer: "min-h-screen bg-slate-50 p-4 md:p-8",
   innerContainer: "max-w-6xl mx-auto",
@@ -142,7 +134,6 @@ export const ordersPageStyles = {
   cancelButton: (isDisabled) => 
     `text-sm bg-red-100 hover:bg-red-200 text-red-700 py-1 px-3 rounded-full transition-colors ${isDisabled ? 'opacity-50 cursor-not-allowed' : ''}`,
   
-  // Modal styles
   modalOverlay: "fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50",
   modalContainer: "bg-white rounded-xl shadow-lg w-full max-w-4xl max-h-[90vh] overflow-y-auto",
   modalHeader: "sticky top-0 bg-white border-b p-6",

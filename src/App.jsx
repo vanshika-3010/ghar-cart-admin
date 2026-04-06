@@ -1,4 +1,3 @@
-// src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AdminNavbar from './components/AdminNavbar';
@@ -16,15 +15,13 @@ function App() {
             <Route path="/admin/add-item" element={<AddItemPage />} />
             <Route path="/admin/list-items" element={<ListItemsPage />} />
             <Route path="/admin/orders" element={<OrdersPage />} />
-            {/* Redirect to add-item as default */}
             <Route path="*" element={<AddItemPage />} />
           </Routes>
         </main>
         
-        {/* Footer */}
         <footer className="bg-emerald-800 text-white py-4">
           <div className="max-w-6xl mx-auto px-4 text-center text-sm">
-            <p>© {new Date().getFullYear()} Rush Basket Admin Panel. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Ghar Cart Admin Panel. All rights reserved.</p>
           </div>
         </footer>
       </div>

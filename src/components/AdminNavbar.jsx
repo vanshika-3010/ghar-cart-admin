@@ -13,17 +13,16 @@ const AdminNavbar = () => {
     <nav className={styles.nav}>
       <div className={styles.container}>
         <div className={styles.mainFlex}>
-          {/* Logo */}
+         
           <div className={styles.logoContainer}>
             <div className={styles.logoIconContainer}>
               <FiPackage className={styles.logoIcon} />
             </div>
             <h1 className={styles.logoText}>
-              <span className={styles.logoAccent}>Rush Basket</span> Admin
+              <span className={styles.logoAccent}>Ghar Cart</span> Admin
             </h1>
           </div>
 
-          {/* Desktop Navigation Links */}
           <div className={styles.desktopNavLinks}>
             <NavLink to="/admin/add-item" className={styles.navLink}>
               <FiPlusCircle className="mr-2" />
@@ -41,7 +40,6 @@ const AdminNavbar = () => {
             </NavLink>
           </div>
 
-          {/* Mobile Menu Button */}
           <div className={styles.mobileMenuButton}>
             <button onClick={toggleMobileMenu} className={styles.menuButton}>
               {isMobileMenuOpen ? <FiX className="h-6 w-6" /> : <FiMenu className="h-6 w-6" />}
@@ -50,7 +48,6 @@ const AdminNavbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       <div className={`${styles.mobileMenuContainer} ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
         <div className={styles.mobileMenuInner}>
           <NavLink 
